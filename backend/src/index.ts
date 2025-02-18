@@ -1,7 +1,7 @@
 import express from "express";
-import cookieParser from "cookie-parser";
-import cors from "cors";
-import jwt, { JwtPayload } from "jsonwebtoken";
+import cookieParser from "cookie-parser"; // cookie parser 
+import cors from "cors"; //cors middleware 
+import jwt, { JwtPayload } from "jsonwebtoken"; //jwtpayload is the type for jwt string 
 import path from "path";
 
 const JWT_SECRET = "test123";
